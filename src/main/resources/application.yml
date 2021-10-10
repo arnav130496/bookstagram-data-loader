@@ -1,0 +1,25 @@
+server:
+  port: 9191
+
+spring:
+  data:
+    cassandra:
+      keyspace-name: book
+      username: SaikjkUqeyJrscqjhmsThgUF
+      password: LaJurr_96tDz3u9uTdhXe51NiDLeE5o3v75sv9Kmk.gj526_2s,JCkHeS3cDjOu.WtsI4uhyXl2-zqFjEZdPA,WLaewao.vSue6IKhoCRIsTxZhi-i+IzGfwfTesLet0
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-bundle.zip
+
+
+astra.db:
+  id: 0a94a592-28f1-4aa4-96cd-f166c46ba7b5-1
+  region: asia-south1
+  keyspace: book
+  application.token: AstraCS:SaikjkUqeyJrscqjhmsThgUF:f8e0e7fd870f412c1de6c14d6255e06abc06538603a432ec9b5c67bc2bbec4d9
