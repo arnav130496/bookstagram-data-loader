@@ -11,7 +11,7 @@ spring:
       keyspace-name: book
       username: SaikjkUqeyJrscqjhmsThgUF
       password: LaJurr_96tDz3u9uTdhXe51NiDLeE5o3v75sv9Kmk.gj526_2s,JCkHeS3cDjOu.WtsI4uhyXl2-zqFjEZdPA,WLaewao.vSue6IKhoCRIsTxZhi-i+IzGfwfTesLet0
-      schema-action: recreate
+      schema-action: create-if-not-exists
       request:
         timeout: 10s
       connection:
